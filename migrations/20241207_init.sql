@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS records (
+  id    INTEGER NOT NULL UNIQUE PRIMARY KEY,
+  text  TEXT,
+  num   INTEGER
+);
