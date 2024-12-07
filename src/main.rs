@@ -1,6 +1,6 @@
 use std::{
     net::{Ipv4Addr, SocketAddrV4},
-    time::{SystemTime, UNIX_EPOCH},
+    time::UNIX_EPOCH,
 };
 
 use axum::{
